@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <TextView
+            android:text="HelloWorld"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+        </TextView>
+        <RadioGroup
+            android:id="@+id/radiog"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <RadioButton
+                android:text="OptionA"
+                android:textSize="20dp"
+                android:id="@+id/option_a"
+                android:onClick="check"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton
+                android:text="OptionB"
+                android:textSize="20dp"
+                android:id="@+id/option_b"
+                android:onClick="check"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton
+                android:text="OptionC"
+                android:textSize="20dp"
+                android:id="@+id/option_c"
+                android:onClick="check"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton
+                android:text="OptionD"
+                android:textSize="20dp"
+                android:id="@+id/option_d"
+                android:onClick="check"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            </RadioButton>
+        </RadioGroup>
+</LinearLayout>

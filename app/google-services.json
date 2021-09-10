@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719482348779",
+    "firebase_url": "https://crt-exam.firebaseio.com",
+    "project_id": "crt-exam",
+    "storage_bucket": "crt-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719482348779:android:8bcf92144bd83c53264aae",
+        "android_client_info": {
+          "package_name": "com.example.crtexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719482348779-bf7r8m3uilssc171a7v5ip4chdbsl8bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crtexam",
+            "certificate_hash": "7880eec03b190d6e7bf9400359f0e428f0788d7a"
+          }
+        },
+        {
+          "client_id": "719482348779-iekrlq5bn3rg71clisiann9p9q0ltfl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmikIWTWRuJ-PO0H_pc14FujRsmlk09BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719482348779-iekrlq5bn3rg71clisiann9p9q0ltfl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

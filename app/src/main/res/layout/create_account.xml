@@ -1,0 +1,134 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/crt_bg">
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp">
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="15dp"
+            android:id="@+id/nm" />
+          <EditText
+              android:layout_width="match_parent"
+              android:inputType="textPersonName"
+              android:layout_height="wrap_content"
+              android:ems="9"
+              android:layout_marginLeft="60dp"
+              android:id="@+id/name_for_createacnt" />
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp">
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll Number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginTop="15dp" android:id="@+id/rn" />
+          <EditText
+                android:layout_width="match_parent"
+                android:ems="9"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:id="@+id/rollnumber_for_createacnt" />
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp">
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="15dp"
+            android:id="@+id/bh" />
+          <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:layout_marginLeft="55dp"
+            android:id="@+id/branch_for_createacnt" />
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp">
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="15dp"
+            android:id="@+id/em" />
+          <EditText
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/email_for_createacnt" />
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp">
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="15dp" />
+          <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:layout_marginLeft="37dp"
+            android:id="@+id/password_for_createacnt" />
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Phone Number"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:layout_marginTop="15dp"
+              android:id="@+id/phnum" />
+          <EditText
+              android:layout_width="match_parent"
+              android:inputType="phone"
+              android:layout_height="wrap_content"
+              android:ems="10"
+              android:id="@+id/phonenumber_for_createacnt" />
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="10dp"
+          android:gravity="center">
+          <Button
+              android:id="@+id/submit_createacnt"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Submit" />
+      </LinearLayout>
+</LinearLayout>

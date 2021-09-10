@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+     <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:background="@drawable/crt_bg">
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/thankyou" />
+
+    <Button
+        android:layout_width="match_parent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:text="change number"
+        android:id="@+id/changenumber" />
+    <Button
+        android:layout_width="match_parent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="wrap_content"
+        android:text="start exam"
+        android:layout_marginTop="25dp"
+        android:hint="To start your exam"
+        android:id="@+id/startexam" />
+    <Button
+        android:layout_width="match_parent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="wrap_content"
+        android:text="my account"
+        android:layout_marginTop="25dp"
+        android:hint="To view your account details"
+        android:id="@+id/myaccount" />
+    <Button
+        android:layout_width="match_parent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="wrap_content"
+        android:text="log out"
+        android:layout_marginTop="25dp"
+        android:hint="To log out from your account"
+        android:id="@+id/logout" />
+</LinearLayout>
